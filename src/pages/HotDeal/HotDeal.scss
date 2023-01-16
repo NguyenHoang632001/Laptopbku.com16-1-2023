@@ -1,0 +1,294 @@
+
+@media only screen and (min-width : 1025px) and (max-width : 10000px)
+{
+    .container-productMain {
+        width: 100%;
+       
+    
+        .titleHotDeal {
+            width: 80%;
+            height: 60px;
+            // background-color: pink;
+            // border-bottom: 1px solid #0795df;
+    
+            .titleHotDealMain {
+                width: 45%;
+                height: 60px;
+                // background-color: blue;
+                border: 1px solid #0795df;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+               
+    
+                .imgHotDeal {
+                
+                    width: 30%;
+                    height: 100%;
+                    object-fit: contain;
+    
+                }
+    
+                .nameHotDeal {
+    
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: red;
+                    animation: example 0.5s infinite;
+                    padding-right: 20px;
+    
+                }
+            }
+        }
+    }
+    
+    .container-product {
+        width: 1100;
+        height: 60px;
+        position: relative;
+    
+    }
+    
+    @keyframes example {
+        0% {
+            transform: rotate(3deg);
+        }
+    
+        25% {
+            transform: rotate(0deg);
+        }
+    
+        50% {
+            transform: rotate(-3deg);
+        }
+    
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+}
+@media only screen and (min-width : 601px) and (max-width : 1024px)
+{
+    .container-productMain {
+        width: 100%;
+        overflow: hidden;
+        
+        // display: none !important;
+        height:400px;
+       
+    
+        .titleHotDeal {
+            width: 100%;
+            height: 60px;
+            // background-color: pink;
+            // border-bottom: 1px solid #0795df;
+    
+            .titleHotDealMain {
+                width: 100%;
+                height: 60px;
+                // background-color: blue;
+                // border: 1px solid #0795df;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 50px;
+    
+                .imgHotDeal {
+                display: none !important;
+                 
+                    height: 100%;
+                    object-fit: contain;
+    
+                }
+    
+                .nameHotDeal {
+    
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: red;
+                    animation: example 0.5s infinite;
+                    padding-right: 20px;
+    
+                }
+            }
+        }
+    }
+    
+    .container-product {
+        width: 100%;
+       
+        height: 60px;
+        position: relative;
+    
+    }
+    
+    @keyframes example {
+        0% {
+            transform: rotate(3deg);
+        }
+    
+        25% {
+            transform: rotate(0deg);
+        }
+    
+        50% {
+            transform: rotate(-3deg);
+        }
+    
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 600px)
+{
+    .container-productMain {
+        width: 100%;
+        // display: none !important;
+        overflow: hidden;
+        
+        // display: none !important;
+        height:400px;
+       
+    
+        .titleHotDeal {
+            width: 100%;
+            height: 60px;
+            // background-color: pink;
+            // border-bottom: 1px solid #0795df;
+    
+            .titleHotDealMain {
+                width: 100%;
+                height: 60px;
+                // background-color: blue;
+                // border: 1px solid #0795df;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 50px;
+    
+                .imgHotDeal {
+                display: none !important;
+                 
+                    height: 100%;
+                    object-fit: contain;
+    
+                }
+    
+                .nameHotDeal {
+    
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: red;
+                    animation: example 0.5s infinite;
+                  
+    
+                }
+            }
+        }
+    }
+    
+    .container-product {
+        width: 100%;
+       
+        height: 60px;
+        position: relative;
+    
+    }
+    
+    @keyframes example {
+        0% {
+            transform: rotate(3deg);
+        }
+    
+        25% {
+            transform: rotate(0deg);
+        }
+    
+        50% {
+            transform: rotate(-3deg);
+        }
+    
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 480px)
+{
+    .container-productMain {
+        width: 100%;
+        // display: none !important;
+        overflow: hidden;
+        
+        // display: none !important;
+        height: 720px;
+       
+    
+        .titleHotDeal {
+            width: 100%;
+            height: 60px;
+            // background-color: pink;
+            // border-bottom: 1px solid #0795df;
+    
+            .titleHotDealMain {
+                width: 100%;
+                height: 60px;
+                // background-color: blue;
+                // border: 1px solid #0795df;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 50px;
+    
+                .imgHotDeal {
+                display: none !important;
+                 
+                    height: 100%;
+                    object-fit: contain;
+    
+                }
+    
+                .nameHotDeal {
+    
+        
+                    font-weight: 600;
+                    color: red;
+                    animation: example 0.5s infinite;
+                    padding-right: 20px;
+                    font-size: 22px;
+    
+                }
+            }
+        }
+    }
+    
+    .container-product {
+        width: 100%;
+       
+        height: 650px;
+        position: relative;
+        margin-bottom: 4px;
+        overflow: hidden;
+    
+    }
+    
+    @keyframes example {
+        0% {
+            transform: rotate(3deg);
+        }
+    
+        25% {
+            transform: rotate(0deg);
+        }
+    
+        50% {
+            transform: rotate(-3deg);
+        }
+    
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+}

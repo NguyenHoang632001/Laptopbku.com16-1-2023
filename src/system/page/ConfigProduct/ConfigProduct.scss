@@ -1,0 +1,101 @@
+.containerConfigProduct {
+    width: 90%;
+    height: 1000px;
+
+    // background-color: pink;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 120px;
+
+    .containerConfig {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        // background-color: red;
+        border-bottom: 5px solid black;
+        justify-content: space-between;
+
+        .listConfig {
+            width: 60%;
+
+            background-color: white;
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+            .itemConfig {
+                font-size: 17px;
+                padding: 10px 0;
+                list-style: none;
+            }
+        }
+
+        .toolsConfig {
+            // background-color: black;
+            width: 20%;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+
+
+            .deleConfig {
+                width: 100px;
+                height: 50px;
+                background-color: #eee;
+                color: black;
+                font-weight: 700;
+                font-size: 17px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgb(244, 16, 187);
+                    color: white;
+                }
+            }
+
+            .UpdateConfigBtn {
+                display: block;
+                width: 100px;
+                height: 50px;
+                background-color: #eee;
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 17px;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgb(50, 232, 18);
+                    color: white;
+                }
+
+                .UpdateLinkConfig {
+                    text-decoration: none;
+                    color: black
+                }
+            }
+        }
+    }
+
+    .creatConfig {
+        position: absolute;
+        padding: 10px 30px;
+        background-color: rgb(244, 34, 237);
+        border-radius: 10px;
+        top: 0;
+        left: 0;
+        transform: translateY(-105%);
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: 700;
+        border: 2px solid black;
+
+        &:hover {
+            background-color: rgb(44, 21, 249);
+            color: white;
+        }
+
+    }
+}

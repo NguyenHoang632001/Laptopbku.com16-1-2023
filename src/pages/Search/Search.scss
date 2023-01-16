@@ -1,0 +1,54 @@
+
+@media only screen and (min-width : 1025px) and (max-width : 10000px)
+{
+    .buttonChangePage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color:red;
+        margin-bottom: 50px;
+        position: relative;
+    
+    }
+    
+    .showPage {
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: 600;
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.458)
+    }
+    
+    .products {
+        width: 100%;
+   
+        justify-content: space-around;
+    }
+    
+    .inforError {
+        width: 100%;
+        align-items: center;
+        font-size: 20px;
+        color: red;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+    
+    }
+    
+    .containerSearchMain {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    
+    }
+    
+    .containerSearch {
+        width: 1100px;
+        // background-color: red;
+        margin: 0 auto;
+        background-color: rgba(180, 227, 243, 0.146);
+    }
+}

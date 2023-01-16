@@ -1,0 +1,3683 @@
+
+@media only screen and (min-width : 1025px) and (max-width : 10000px)
+{
+    .containerProductInformain {
+        width: 100%;
+        min-height: 500px;
+    .newsProduct
+    {    margin-top: 20px;
+        width: 1100px;
+        line-height: 20px;
+        /* text-align: center; */
+        font-size: 21px;
+        font-weight: 600;
+        padding: 80px 0;
+        margin: 0 auto;
+    }
+        .markdownPoroduct {
+            width: 1100px;
+            min-height: 20px;
+            // background-color: red;
+            margin: 0px auto 50px;
+          
+            padding:5px 10px;
+    
+            h1 {
+                font-size: 25px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                width: 70%;
+                margin:0 auto;
+            }
+    
+            h2 {
+                font-size: 24px;
+                color: black;
+            }
+    
+            h3 {
+                font-size: 23px;
+                color: black;
+    
+            }
+    
+            h4 {
+                font-size: 22px;
+                color: black;
+    
+            }
+    
+            h5 {
+                font-size: 21px;
+                color: black;
+    
+            }
+    
+            h6 {
+                font-size: 20px;
+                color: black;
+    
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: justify;
+            }
+    
+            img {
+                object-fit: cover;
+                width: 40%;
+                height: 250px;
+                background-size: cover;
+                display: block;
+                margin:5px 0;
+                margin:0 auto;
+            }
+        }
+    }
+    
+    .containerProduct {
+        width: 1100px;
+        min-height: 600px;
+    
+    
+        margin-bottom: 50px;
+    
+        margin-top: 100px;
+    
+    
+        @keyframes filling {
+            from {
+                background-position: center 25%;
+            }
+    
+            to {
+                background-position: center 50%;
+            }
+        }
+    
+        margin:100px auto;
+        // background-color: pink;
+    
+        .wrapTitleLaptop {
+            // background-color: red;
+            width: 100%;
+    
+            hr {
+                width: 98%;
+                // background-color: black;
+                height: 0.5px;
+            }
+    
+            .titleLaptop {
+                padding-left: 10px;
+                font-size: 25px;
+                padding-bottom: 5px;
+            }
+        }
+    
+        .introduce_Product {
+            // padding-top: 10px;
+            text-align: center;
+            font-size: 28px;
+              font-weight: 700;
+            color:red;
+            padding: 20px 0;
+    
+        }
+    
+        .container_itemProduct {
+            display: flex;
+            width: 100%;
+            height: 500px;
+        
+            //  background-color: blue;
+    
+            .image_Infor {
+       
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 100%;
+                width: 46%;
+                // background-color: orangered;
+                padding:5px;
+
+                .image_Infor-item
+                {
+                    width: 100%;
+                    height:80%;
+                    background-color: white;
+                    
+                }
+
+                .list-image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    height:20%;
+                    background-color: white;
+    
+                    .list-image-item {
+                        object-fit: contain;
+                        object-position: center;
+                        width: 120px;
+                        height: 100%;
+                        cursor: pointer;
+                    }
+                }
+    
+    
+                .image_Infor-item {
+                    width: 100%;
+                    height: 80%;
+                    object-fit: contain;
+                    // padding: 10px;
+    
+                }
+    
+            }
+    
+            .container_InforDetail {
+               
+               
+               
+                width: 54%;
+                height:100%;
+          
+                padding:5px;
+                .itemInfor {
+                    font-size: 18px;
+                    font-weight: 400;
+                    padding-top: 20px;
+                }
+    
+                .detailConfig {
+                    font-size: 18px;
+                    color: #0795df;
+                    padding:15px;
+                    font-weight: 600;
+               
+                    
+    
+                    &:hover {
+                        cursor: pointer;
+    
+    
+                    }
+                }
+    
+                .chooseConfig {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-top: 10px
+                }
+    
+                .ContactBuyProduct {
+                    width: 100%;
+                    // background-color: red;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+             
+                    // background-color:blue;
+    
+    
+                    .buy {
+                        width: 200px;
+    
+                        .buy-btn {
+                            background-color: #db1515;
+                            width: 250px;
+                            margin-right: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            // border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+                    .installment {
+                        .installment-btn {
+                            background-color: #0795df;
+                            width: 250px;
+                            margin-left: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+    
+    
+                
+                .cpuInfor {
+                    &::before {
+                        content: 'CPU: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .graphicsCard {
+                    &::before {
+                        content: 'Card đồ họa : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .memory {
+                    &::before {
+                        content: 'Ổ Cứng : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .graphicsInfor {
+                    &::before {
+                        content: 'GRAPHICS: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .ramInfor {
+                    &::before {
+                        content: 'RAM: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .ssdInfor {
+                    &::before {
+                        content: 'SSD Hard Drives: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .operatingSystem {
+                    &::before {
+                        content: 'Hệ điều hành : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .sizeScreen {
+                    &::before {
+                        content: 'Màn hình : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 18px;
+                    }
+                }
+    
+                .inforPrice {
+                    font-size: 25px;
+                    color: #db1515;
+                    font-weight: bold;
+                }
+    
+                .descriptionInfor {
+                    padding: 17px;
+                    color: hotpink;
+                    padding: 0 .3rem;
+                    margin: 0 .3rem 0 0;
+                    border: 1px solid;
+                    border-radius: 8px;
+                    font-family: "IBM Plex Mono";
+                    color: black;
+                    line-height: 1.5;
+                    justify-content: center;
+    
+                }
+    
+                .container_config {
+                    width: 100%;
+                    min-height: 200px;
+                    // background-color: red;
+    
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    justify-content: space-around;
+                    
+    
+                    .item_config {
+                        width: 250px;
+                        height: 100px;
+    
+                        // margin: 0 10px;
+                        border: 1px solid #0795df;
+                        border-radius: 3px;
+                        background-color: transparent;
+                        font-size: 15px;
+                        transition: all 0.2s linear;
+                        line-height: 1.5;
+                        font-size: 15px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+    
+                        .priceItemProduct {
+                            color: red;
+                        }
+    
+                        .InforItemProduct {
+                            &:hover {
+                                color: black;
+                            }
+                        }
+    
+                        &:hover {
+    
+    
+                            cursor: pointer;
+    
+                        }
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    
+        //modal
+    }
+    
+    
+    .containerModal {
+        background-color: #eee;
+        
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        position: relative;
+        // background-color: blue;
+        // margin:0 auto;
+        padding-left: 10px;
+            // box-Shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border:1px solid rgba(0, 0, 0, 0.196);
+            border-radius: 15px;
+            margin:0 auto;
+    
+        .containerContent {
+            margin-top: 20px;
+    
+            .contentLabel {
+                padding: 10px 0;
+                line-height: 30px;
+            }
+    
+            hr {
+                background-color: black;
+    
+                // margin-top: 26px;
+            }
+    
+            .line {
+                height: 0.1px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.502);
+                margin-top: 26px;
+            }
+    
+    
+    
+            .Content-Title {
+                font-size: 17px;
+                font-weight: 620;
+                margin-top: 10px;
+    
+    
+            }
+    
+            .contentLabel {}
+        }
+    
+        .closeTabIcon {
+            position: absolute;
+            top: 20px;
+            right: 22px;
+            border: none;
+            transform: scale(3);
+          
+            z-index: 1000;
+           color:blue;
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+    
+        }
+       
+    
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+    
+        .contentLabel {
+    
+            font-size: large;
+            font-weight: 400;
+    
+    
+        }
+    
+        // span {
+        //     color: rgba(0, 0, 0, 0.6);
+        // }
+    
+    
+    }
+    
+    .ReactModal__Overlay {
+        background-color: red;
+    }
+    
+    .activeConfig {
+        background-color: #eee !important;
+    }
+}
+@media only screen and (min-width : 901px) and (max-width : 1024px)
+{
+    .containerProductInformain {
+        width: 100%;
+        min-height: 500px;
+         .newsProduct
+                 {    margin-top: 20px;
+             width: 100%;
+            line-height: 20px;
+            /* text-align: center; */
+            font-size: 21px;
+            font-weight: 600;
+    
+            padding: 30px 0;
+
+            margin: 0 auto;
+            padding-left: 5px;
+             }
+        .markdownPoroduct {
+            width: 100%;
+            min-height: 20px;
+            // background-color: red;
+            margin: 0px auto 50px;
+          
+            padding:5px 10px;
+    
+            h1 {
+                font-size: 24px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                width: 70%;
+                margin:0 auto;
+            }
+    
+            h2 {
+                font-size: 24px;
+                color: black;
+            }
+    
+            h3 {
+                font-size: 23px;
+                color: black;
+    
+            }
+    
+            h4 {
+                font-size: 22px;
+                color: black;
+    
+            }
+    
+            h5 {
+                font-size: 21px;
+                color: black;
+    
+            }
+    
+            h6 {
+                font-size: 20px;
+                color: black;
+    
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: justify;
+            }
+    
+            img {
+                object-fit: cover;
+                width: 40%;
+                height: 250px;
+                background-size: cover;
+                display: block;
+                margin:5px 0;
+                margin:0 auto;
+            }
+        }
+    }
+    
+    .containerProduct {
+        width: 100%;
+        min-height: 600px;
+        // background-color: red;
+    
+    
+        margin-bottom: 50px;
+    
+        margin-top: 100px;
+    
+    
+        @keyframes filling {
+            from {
+                background-position: center 25%;
+            }
+    
+            to {
+                background-position: center 50%;
+            }
+        }
+    
+
+        // background-color: pink;
+    
+        .wrapTitleLaptop {
+            // background-color: red;
+            width: 100%;
+    
+            hr {
+                width: 98%;
+                // background-color: black;
+                height: 0.5px;
+            }
+    
+            .titleLaptop {
+                padding-left: 10px;
+                font-size: 20px;
+                padding-bottom: 5px;
+            }
+        }
+    
+        .introduce_Product {
+            // padding-top: 10px;
+            text-align: center;
+            font-size: 20px;
+              font-weight: 700;
+            color:red;
+            padding: 20px 0;
+    
+        }
+    
+        .container_itemProduct {
+            display: flex;
+            width: 100%;
+            height: 400px;
+        
+            //  background-color: blue;
+    
+            .image_Infor {
+       
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 100%;
+                width: 46%;
+                // background-color: orangered;
+                padding:5px;
+                // background-color: blue;
+
+                .image_Infor-item
+                {
+                    width: 100%;
+                    height:80%;
+                    // background-color: yellow;
+                    
+                }
+
+                .list-image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    height:30%;
+                    width: 100%;
+                    background-color: white;
+                    // background-color: rgb(0, 255, 21);
+    
+                    .list-image-item {
+                        object-fit: contain;
+                        object-position: center;
+                         width: 25%;
+                        height: 100%;
+            
+                        cursor: pointer;
+                    }
+                }
+    
+    
+                .image_Infor-item {
+                    height: 70%;
+                  
+                    object-fit: contain;
+                    // padding: 10px;
+    
+                }
+    
+            }
+    
+            .container_InforDetail {
+               
+               
+               
+                width: 54%;
+                height:100%;
+          
+                padding:5px;
+                .itemInfor {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-top: 10px;
+                }
+    
+                .detailConfig {
+                    font-size: 16px;
+                    color: #0795df;
+                    /* padding: 10px; */
+                    font-weight: 600;
+                    padding: 6px 0;
+               
+                    
+    
+                    &:hover {
+                        cursor: pointer;
+    
+    
+                    }
+                }
+    
+                .chooseConfig {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-top: 10px
+                }
+    
+                .ContactBuyProduct {
+                    width: 100%;
+                    // background-color: red;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+             
+                    // background-color:wheat;
+    
+    
+                    .buy {
+                        width: 200px;
+    
+                        .buy-btn {
+                            background-color: #db1515;
+                            width: 250px;
+                            margin-right: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            // border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+                    .installment {
+                        .installment-btn {
+                            background-color: #0795df;
+                            width: 250px;
+                            margin-left: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+    
+    
+                
+                .cpuInfor {
+                    &::before {
+                        content: 'CPU: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsCard {
+                    &::before {
+                        content: 'Card đồ họa : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .memory {
+                    &::before {
+                        content: 'Ổ Cứng : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsInfor {
+                    &::before {
+                        content: 'GRAPHICS: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ramInfor {
+                    &::before {
+                        content: 'RAM: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ssdInfor {
+                    &::before {
+                        content: 'SSD Hard Drives: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .operatingSystem {
+                    &::before {
+                        content: 'Hệ điều hành : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .sizeScreen {
+                    &::before {
+                        content: 'Màn hình : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .inforPrice {
+                    font-size: 22px;
+                    color: #db1515;
+                    font-weight: bold;
+                }
+    
+                .descriptionInfor {
+                    padding: 17px;
+                    color: hotpink;
+                    padding: 0 .3rem;
+                    margin: 0 .3rem 0 0;
+                    border: 1px solid;
+                    border-radius: 8px;
+                    font-family: "IBM Plex Mono";
+                    color: black;
+                    line-height: 1.5;
+                    justify-content: center;
+    
+                }
+    
+                .container_config {
+                    width: 100%;
+                    min-height: 200px;
+                    // background-color: red;
+    
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    justify-content: space-around;
+                    // background-color:red;
+    
+                    .item_config {
+                        width: 200px;
+                        height: 100px;
+    
+                        // margin: 0 10px;
+                        border: 1px solid #0795df;
+                        border-radius: 3px;
+                        background-color: transparent;
+                        font-size: 15px;
+                        transition: all 0.2s linear;
+                        line-height: 1.5;
+                        font-size: 15px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+    
+                        .priceItemProduct {
+                            color: red;
+                        }
+    
+                        .InforItemProduct {
+                            &:hover {
+                                color: black;
+                            }
+                        }
+    
+                        &:hover {
+    
+    
+                            cursor: pointer;
+    
+                        }
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    
+        //modal
+    }
+    
+    
+    .containerModal {
+        background-color: #eee;
+        width: 70%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        position: relative;
+        // margin:0 auto;
+        padding-left: 10px;
+        // box-Shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 15px;
+        margin:0 auto;
+    
+        .containerContent {
+            margin-top: 20px;
+    
+            .contentLabel {
+                padding: 10px 0;
+                line-height: 30px;
+            }
+    
+            hr {
+                background-color: black;
+    
+                // margin-top: 26px;
+            }
+    
+            .line {
+                height: 0.1px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.502);
+                margin-top: 26px;
+            }
+    
+    
+    
+            .Content-Title {
+                font-size: 17px;
+                font-weight: 620;
+                margin-top: 10px;
+    
+    
+            }
+    
+            .contentLabel {}
+        }
+    
+        .closeTabIcon {
+            position: absolute;
+            top: 20px;
+            right: 22px;
+            border: none;
+            transform: scale(3);
+          
+            z-index: 1000;
+           color:blue;
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+    
+        }
+       
+    
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+    
+        .contentLabel {
+    
+            font-size: large;
+            font-weight: 400;
+    
+    
+        }
+    
+        // span {
+        //     color: rgba(0, 0, 0, 0.6);
+        // }
+    
+    
+    }
+    
+    .ReactModal__Overlay {
+        background-color: red;
+    }
+    
+    .activeConfig {
+        background-color: #eee !important;
+    }
+}
+@media only screen and (min-width : 801px) and (max-width : 900px){
+    .containerProductInformain {
+        width: 100%;
+        min-height: 500px;
+        .newsProduct
+         { margin-top: 20px;
+            display: none !important;
+             width: 100%;
+            line-height: 20px;
+            /* text-align: center; */
+            font-size: 21px;
+            font-weight: 600;
+    
+            
+
+            margin: 0 auto;
+             }
+        .markdownPoroduct {
+            width: 100%;
+            min-height: 20px;
+            // background-color: red;
+            margin: 0px auto 50px;
+          
+            padding:5px 10px;
+    
+            h1 {
+                font-size: 24px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                width: 70%;
+                margin:0 auto;
+            }
+    
+            h2 {
+                font-size: 24px;
+                color: black;
+      
+            }
+    
+            h3 {
+                font-size: 23px;
+                color: black;
+    
+            }
+    
+            h4 {
+                font-size: 22px;
+                color: black;
+    
+            }
+    
+            h5 {
+                font-size: 21px;
+                color: black;
+    
+            }
+    
+            h6 {
+                font-size: 20px;
+                color: black;
+    
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: justify;
+            }
+    
+            img {
+                object-fit: contain;
+                width: 70%;
+                height: 400px;
+                background-size: cover;
+                display: block;
+                margin: 5px 0;
+                margin: 0 auto;
+            }
+        }
+    }
+    
+    .containerProduct {
+        width: 100%;
+        min-height: 600px;
+    
+    
+        margin-bottom: 50px;
+    
+        margin-top: 100px;
+    
+    
+        @keyframes filling {
+            from {
+                background-position: center 25%;
+            }
+    
+            to {
+                background-position: center 50%;
+            }
+        }
+    
+
+        // background-color: pink;
+    
+        .wrapTitleLaptop {
+            // background-color: red;
+            width: 100%;
+    
+            hr {
+                width: 98%;
+                // background-color: black;
+                height: 0.5px;
+            }
+    
+            .titleLaptop {
+                padding-left: 10px;
+                font-size: 20px;
+                padding-bottom: 5px;
+            }
+        }
+    
+        .introduce_Product {
+            // padding-top: 10px;
+            text-align: center;
+            font-size: 20px;
+              font-weight: 700;
+            color:red;
+            padding: 0px 0 20px;
+    
+        }
+    
+        .container_itemProduct {
+           
+            width: 100%;
+            min-height: 200px;
+            //  background-color: blue;
+    
+            .image_Infor {
+       
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 500px;
+                width: 100%;
+                // background-color: orangered;
+                padding:5px;
+                // background-color:red;
+                margin: 0 auto 10px;
+
+                .image_Infor-item
+                {
+                    width: 100%;
+                    height:80%;
+                    // background-color: yellow;
+                    
+                }
+
+                .list-image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    height: 30%;
+                    width: 100%;
+                    // background-color: white;
+                    // background-color: rgb(0, 255, 21);
+    
+                    .list-image-item {
+                        object-fit: contain;
+                        object-position: center;
+                         width: 25%;
+                        height: 100%;
+            
+                        cursor: pointer;
+                    }
+                }
+    
+    
+                .image_Infor-item {
+                    width: 100%;
+                    height: 70%;
+                    object-fit: contain;
+                    // padding: 10px;
+    
+                }
+    
+            }
+    
+            .container_InforDetail {
+               
+               
+               
+                width: 100%;
+                height:40%;
+          
+                padding:5px;
+                .itemInfor {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-top: 10px;
+                }
+    
+                .detailConfig {
+                    font-size: 16px;
+                    color: #0795df;
+                    /* padding: 10px; */
+                    font-weight: 600;
+                    padding: 6px 0;
+               
+                    
+    
+                    &:hover {
+                        cursor: pointer;
+    
+    
+                    }
+                }
+    
+                .chooseConfig {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-top: 10px
+                }
+    
+                .ContactBuyProduct {
+                    width: 80%;
+                    margin: 0 auto;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    // background-color: wheat;
+    
+    
+                    .buy {
+                        width: 200px;
+    
+                        .buy-btn {
+                            background-color: #db1515;
+                            width: 250px;
+                            margin-right: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            // border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+                    .installment {
+                        .installment-btn {
+                            background-color: #0795df;
+                            width: 250px;
+                            margin-left: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+    
+    
+                
+                .cpuInfor {
+                    &::before {
+                        content: 'CPU: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsCard {
+                    &::before {
+                        content: 'Card đồ họa : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .memory {
+                    &::before {
+                        content: 'Ổ Cứng : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsInfor {
+                    &::before {
+                        content: 'GRAPHICS: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ramInfor {
+                    &::before {
+                        content: 'RAM: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ssdInfor {
+                    &::before {
+                        content: 'SSD Hard Drives: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .operatingSystem {
+                    &::before {
+                        content: 'Hệ điều hành : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .sizeScreen {
+                    &::before {
+                        content: 'Màn hình : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .inforPrice {
+                    font-size: 22px;
+                    color: #db1515;
+                    font-weight: bold;
+                }
+    
+                .descriptionInfor {
+                    padding: 17px;
+                    color: hotpink;
+                    padding: 0 .3rem;
+                    margin: 0 .3rem 0 0;
+                    border: 1px solid;
+                    border-radius: 8px;
+                    font-family: "IBM Plex Mono";
+                    color: black;
+                    line-height: 1.5;
+                    justify-content: center;
+    
+                }
+    
+                .container_config {
+                    width: 90%;
+                    min-height: 200px;
+                    // background-color: red;
+    
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    justify-content: space-around;
+                    // background-color:red;
+                    margin: 20px auto;
+    
+                    .item_config {
+                        width: 47%;
+                        height: 100px;
+    
+                        // margin: 0 10px;
+                        border: 1px solid #0795df;
+                        border-radius: 3px;
+                        background-color: transparent;
+                        font-size: 15px;
+                        transition: all 0.2s linear;
+                        line-height: 1.5;
+                        font-size: 15px;
+                     
+                        margin-top: 10px;
+    
+                        .priceItemProduct {
+                            color: red;
+                        }
+    
+                        .InforItemProduct {
+                            &:hover {
+                                color: black;
+                            }
+                        }
+    
+                        &:hover {
+    
+    
+                            cursor: pointer;
+    
+                        }
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    
+        //modal
+    }
+    
+    
+    .containerModal {
+        background-color: #eee;
+        width: 70%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        position: relative;
+        // margin:0 auto;
+        padding-left: 10px;
+        box-Shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 15px;
+        border:1px solid rgba(0, 0, 0, 0.306);
+        margin:0 auto;
+    
+        .containerContent {
+            margin-top: 20px;
+    
+            .contentLabel {
+                padding: 10px 0;
+                line-height: 30px;
+            }
+    
+            hr {
+                background-color: black;
+    
+                // margin-top: 26px;
+            }
+    
+            .line {
+                height: 0.1px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.502);
+                margin-top: 26px;
+            }
+    
+    
+    
+            .Content-Title {
+                font-size: 17px;
+                font-weight: 620;
+                margin-top: 10px;
+    
+    
+            }
+    
+            .contentLabel {}
+        }
+    
+        .closeTabIcon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            border: none;
+            transform: scale(2);
+          
+            z-index: 1000;
+           color:blue;
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+    
+        }
+       
+    
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+    
+        .contentLabel {
+    
+            font-size: large;
+            font-weight: 400;
+    
+    
+        }
+    
+        // span {
+        //     color: rgba(0, 0, 0, 0.6);
+        // }
+    
+    
+    }
+    
+    .ReactModal__Overlay {
+        background-color: red;
+    }
+    
+    .activeConfig {
+        background-color: #eee !important;
+    }
+}
+@media only screen and (min-width : 701px) and (max-width : 800px){
+    .containerProductInformain {
+        width: 100%;
+        min-height: 500px;
+        .newsProduct
+         { margin-top: 20px;
+            display: none !important;
+             width: 100%;
+            line-height: 20px;
+            /* text-align: center; */
+            font-size: 21px;
+            font-weight: 600;
+    
+            
+
+            margin: 0 auto;
+             }
+        .markdownPoroduct {
+            width: 100%;
+            min-height: 20px;
+            // background-color: red;
+            margin: 0px auto 50px;
+          
+            padding:5px 10px;
+    
+            h1 {
+                font-size: 24px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                width: 90%;
+                margin:0 auto;
+            }
+    
+            h2 {
+                font-size: 24px;
+                color: black;
+            }
+    
+            h3 {
+                font-size: 23px;
+                color: black;
+    
+            }
+    
+            h4 {
+                font-size: 22px;
+                color: black;
+    
+            }
+    
+            h5 {
+                font-size: 21px;
+                color: black;
+    
+            }
+    
+            h6 {
+                font-size: 20px;
+                color: black;
+    
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: justify;
+            }
+    
+            img {
+                object-fit: contain;
+                width: 90%;
+                height: 400px;
+                background-size: cover;
+                display: block;
+                margin: 5px 0;
+                margin: 0 auto;
+            }
+        }
+    }
+    
+    .containerProduct {
+        width: 100%;
+        min-height: 600px;
+    
+    
+        margin-bottom: 50px;
+    
+        margin-top: 100px;
+    
+    
+        @keyframes filling {
+            from {
+                background-position: center 25%;
+            }
+    
+            to {
+                background-position: center 50%;
+            }
+        }
+    
+
+        // background-color: pink;
+    
+        .wrapTitleLaptop {
+            // background-color: red;
+            width: 100%;
+    
+            hr {
+                width: 98%;
+                // background-color: black;
+                height: 0.5px;
+            }
+    
+            .titleLaptop {
+                padding-left: 10px;
+                font-size: 20px;
+                padding-bottom: 5px;
+            }
+        }
+    
+        .introduce_Product {
+            // padding-top: 10px;
+            text-align: center;
+            font-size: 20px;
+              font-weight: 700;
+            color:red;
+            padding: 0px 0 20px;
+    
+        }
+    
+        .container_itemProduct {
+           
+            width: 100%;
+            min-height: 200px;
+            //  background-color: blue;
+    
+            .image_Infor {
+       
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 500px;
+                width: 100%;
+                // background-color: orangered;
+                padding:5px;
+                // background-color:red;
+                margin: 0 auto 10px;
+
+                .image_Infor-item
+                {
+                    width: 100%;
+                    height:80%;
+                    // background-color: yellow;
+                    
+                }
+
+                .list-image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    height: 30%;
+                    width: 100%;
+                    // background-color: white;
+                    // background-color: rgb(0, 255, 21);
+    
+                    .list-image-item {
+                        object-fit: contain;
+                        object-position: center;
+                         width: 25%;
+                        height: 100%;
+            
+                        cursor: pointer;
+                    }
+                }
+    
+    
+                .image_Infor-item {
+                    width: 100%;
+                    height: 70%;
+                    object-fit: contain;
+                    // padding: 10px;
+    
+                }
+    
+            }
+    
+            .container_InforDetail {
+               
+               
+               
+                width: 100%;
+                height:40%;
+          
+                padding:5px;
+                .itemInfor {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-top: 10px;
+                }
+    
+                .detailConfig {
+                    font-size: 16px;
+                    color: #0795df;
+                    /* padding: 10px; */
+                    font-weight: 600;
+                    padding: 6px 0;
+               
+                    
+    
+                    &:hover {
+                        cursor: pointer;
+    
+    
+                    }
+                }
+    
+                .chooseConfig {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-top: 10px
+                }
+    
+                .ContactBuyProduct {
+                    width: 85%;
+                    margin: 0 auto;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    // background-color: wheat;
+    
+    
+                    .buy {
+                        width: 200px;
+    
+                        .buy-btn {
+                            background-color: #db1515;
+                            width: 250px;
+                            margin-right: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            // border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+                    .installment {
+                        .installment-btn {
+                            background-color: #0795df;
+                            width: 250px;
+                            margin-left: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+    
+    
+                
+                .cpuInfor {
+                    &::before {
+                        content: 'CPU: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsCard {
+                    &::before {
+                        content: 'Card đồ họa : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .memory {
+                    &::before {
+                        content: 'Ổ Cứng : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsInfor {
+                    &::before {
+                        content: 'GRAPHICS: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ramInfor {
+                    &::before {
+                        content: 'RAM: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ssdInfor {
+                    &::before {
+                        content: 'SSD Hard Drives: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .operatingSystem {
+                    &::before {
+                        content: 'Hệ điều hành : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .sizeScreen {
+                    &::before {
+                        content: 'Màn hình : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .inforPrice {
+                    font-size: 22px;
+                    color: #db1515;
+                    font-weight: bold;
+                }
+    
+                .descriptionInfor {
+                    padding: 17px;
+                    color: hotpink;
+                    padding: 0 .3rem;
+                    margin: 0 .3rem 0 0;
+                    border: 1px solid;
+                    border-radius: 8px;
+                    font-family: "IBM Plex Mono";
+                    color: black;
+                    line-height: 1.5;
+                    justify-content: center;
+    
+                }
+    
+                .container_config {
+                    width: 90%;
+
+                    min-height: 200px;
+                    // background-color: red;
+    
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    justify-content: space-around;
+                    // background-color:red;
+                    margin: 20px auto;
+    
+                    .item_config {
+                        width: 47%;
+                        height: 100px;
+                        border: 1px solid #0795df;
+                        border-radius: 3px;
+                        background-color: transparent;
+                        font-size: 15px;
+                        transition: all 0.2s linear;
+                        line-height: 1.5;
+                        font-size: 15px;
+                        /* margin-left: 10px; */
+                        margin-top: 10px;
+    
+                        .priceItemProduct {
+                            color: red;
+                        }
+    
+                        .InforItemProduct {
+                            &:hover {
+                                color: black;
+                            }
+                        }
+    
+                        &:hover {
+    
+    
+                            cursor: pointer;
+    
+                        }
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    
+        //modal
+    }
+    
+    
+    .containerModal {
+        background-color: #eee;
+        width: 70%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        position: relative;
+        // margin:0 auto;
+        padding-left: 10px;
+        // box-Shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border:1px solid  rgba(0, 0, 0, 0.169);
+    margin:0 auto;
+    border-radius: 13px;
+    
+        .containerContent {
+            margin-top: 20px;
+    
+            .contentLabel {
+                padding: 10px 0;
+                line-height: 30px;
+            }
+    
+            hr {
+                background-color: black;
+    
+                // margin-top: 26px;
+            }
+    
+            .line {
+                height: 0.1px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.502);
+                margin-top: 26px;
+            }
+    
+    
+    
+            .Content-Title {
+                font-size: 17px;
+                font-weight: 620;
+                margin-top: 10px;
+    
+    
+            }
+    
+            .contentLabel {}
+        }
+    
+        .closeTabIcon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            border: none;
+            transform: scale(2);
+          
+            z-index: 1000;
+           color:blue;
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+    
+        }
+       
+    
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+    
+        .contentLabel {
+    
+            font-size: large;
+            font-weight: 400;
+    
+    
+        }
+    
+        // span {
+        //     color: rgba(0, 0, 0, 0.6);
+        // }
+    
+    
+    }
+    
+    .ReactModal__Overlay {
+        background-color: red;
+    }
+    
+    .activeConfig {
+        background-color: #eee !important;
+    }
+}
+@media only screen and (min-width : 601px) and (max-width : 700px){
+    .containerProductInformain {
+        width: 100%;
+        min-height: 500px;
+        .newsProduct
+         { margin-top: 20px;
+            display: none !important;
+             width: 100%;
+            line-height: 20px;
+            /* text-align: center; */
+            font-size: 21px;
+            font-weight: 600;
+    
+            
+
+            margin: 0 auto;
+             }
+        .markdownPoroduct {
+            width: 100%;
+            min-height: 20px;
+            // background-color: red;
+            margin: 0px auto 50px;
+          
+            padding:5px 10px;
+    
+            h1 {
+                font-size: 24px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                width: 90%;
+                margin:0 auto;
+                margin-bottom: 25px;
+            }
+    
+            h2 {
+                font-size: 24px;
+                color: black;
+            }
+    
+            h3 {
+                font-size: 23px;
+                color: black;
+    
+            }
+    
+            h4 {
+                font-size: 22px;
+                color: black;
+    
+            }
+    
+            h5 {
+                font-size: 21px;
+                color: black;
+    
+            }
+    
+            h6 {
+                font-size: 20px;
+                color: black;
+    
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: justify;
+            }
+    
+            img {
+                object-fit: contain;
+                width: 90%;
+                height: 400px;
+                background-size: cover;
+                display: block;
+                margin: 5px 0;
+                margin: 0 auto;
+            }
+        }
+    }
+    
+    .containerProduct {
+        width: 100%;
+        min-height: 600px;
+    
+    
+        margin-bottom: 50px;
+    
+        margin-top: 100px;
+    
+    
+        @keyframes filling {
+            from {
+                background-position: center 25%;
+            }
+    
+            to {
+                background-position: center 50%;
+            }
+        }
+    
+
+        // background-color: pink;
+    
+        .wrapTitleLaptop {
+            // background-color: red;
+            width: 100%;
+    
+            hr {
+                width: 98%;
+                // background-color: black;
+                height: 0.5px;
+            }
+    
+            .titleLaptop {
+                padding-left: 10px;
+                font-size: 17px;
+                padding-bottom: 5px;
+            }
+        }
+    
+        .introduce_Product {
+            // padding-top: 10px;
+            text-align: center;
+            font-size: 16px;
+              font-weight: 700;
+            color:red;
+            padding: 0px 0 20px;
+    
+        }
+    
+        .container_itemProduct {
+           
+            width: 100%;
+            min-height: 200px;
+            //  background-color: blue;
+    
+            .image_Infor {
+       
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 500px;
+                width: 100%;
+                // background-color: orangered;
+                padding:5px;
+                // background-color:red;
+                margin: 0 auto 10px;
+
+                .image_Infor-item
+                {
+                    width: 100%;
+                    height:80%;
+                    // background-color: yellow;
+                    
+                }
+
+                .list-image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    height:30%;
+                    width: 100%;
+                    // background-color: white;
+                    // background-color: rgb(0, 255, 21);
+    
+                    .list-image-item {
+                        object-fit: contain;
+                        object-position: center;
+                         width: 25%;
+                        height: 100%;
+            
+                        cursor: pointer;
+                    }
+                }
+    
+    
+                .image_Infor-item {
+                    width: 100%;
+                    height: 70%;
+                    object-fit: contain;
+                    // padding: 10px;
+    
+                }
+    
+            }
+    
+            .container_InforDetail {
+               
+               
+               
+                width: 100%;
+                height:40%;
+          
+                padding:5px;
+                .itemInfor {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-top: 10px;
+                }
+    
+                .detailConfig {
+                    font-size: 16px;
+                    color: #0795df;
+                    /* padding: 10px; */
+                    font-weight: 600;
+                    padding: 14px 0;
+               
+                    
+    
+                    &:hover {
+                        cursor: pointer;
+    
+    
+                    }
+                }
+    
+                .chooseConfig {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-top: 10px
+                }
+    
+                .ContactBuyProduct {
+                    width: 100%;
+
+                    margin: 0 auto;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    // background-color: wheat;
+    
+    
+                    .buy {
+                        width: 200px;
+    
+                        .buy-btn {
+                            background-color: #db1515;
+                            width: 250px;
+                            margin-right: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            // border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+                    .installment {
+                        .installment-btn {
+                            background-color: #0795df;
+                            width: 250px;
+                            margin-left: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+    
+    
+                
+                .cpuInfor {
+                    &::before {
+                        content: 'CPU: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsCard {
+                    &::before {
+                        content: 'Card đồ họa : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .memory {
+                    &::before {
+                        content: 'Ổ Cứng : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsInfor {
+                    &::before {
+                        content: 'GRAPHICS: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ramInfor {
+                    &::before {
+                        content: 'RAM: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ssdInfor {
+                    &::before {
+                        content: 'SSD Hard Drives: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .operatingSystem {
+                    &::before {
+                        content: 'Hệ điều hành : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .sizeScreen {
+                    &::before {
+                        content: 'Màn hình : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .inforPrice {
+                    font-size: 22px;
+                    color: #db1515;
+                    font-weight: bold;
+                }
+    
+                .descriptionInfor {
+                    padding: 17px;
+                    color: hotpink;
+                    padding: 0 .3rem;
+                    margin: 0 .3rem 0 0;
+                    border: 1px solid;
+                    border-radius: 8px;
+                    font-family: "IBM Plex Mono";
+                    color: black;
+                    line-height: 1.5;
+                    justify-content: center;
+    
+                }
+    
+                .container_config {
+                    width: 90%;
+
+                    min-height: 200px;
+                    // background-color: red;
+    
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    justify-content: space-around;
+                    // background-color:red;
+                    margin: 20px auto;
+    
+                    .item_config {
+                        width: 47%;
+    height: 100px;
+    border: 1px solid #0795df;
+    border-radius: 3px;
+    background-color: transparent;
+    font-size: 15px;
+    transition: all 0.2s linear;
+    line-height: 1.5;
+    font-size: 15px;
+    /* margin-left: 10px; */
+    margin-top: 10px;
+    
+                        .priceItemProduct {
+                            color: red;
+                        }
+    
+                        .InforItemProduct {
+                            &:hover {
+                                color: black;
+                            }
+                        }
+    
+                        &:hover {
+    
+    
+                            cursor: pointer;
+    
+                        }
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    
+        //modal
+    }
+    
+    
+    .containerModal {
+        background-color: #eee;;
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        position: relative;
+        // margin:0 auto;
+        padding-left: 10px;
+       
+        margin:0 auto;
+        border-radius: 10px;
+    
+        .containerContent {
+            margin-top: 20px;
+    
+            .contentLabel {
+                padding: 10px 0;
+                line-height: 30px;
+            }
+    
+            hr {
+                background-color: black;
+    
+                // margin-top: 26px;
+            }
+    
+            .line {
+                height: 0.1px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.502);
+                margin-top: 26px;
+            }
+    
+    
+    
+            .Content-Title {
+                font-size: 17px;
+                font-weight: 620;
+                margin-top: 10px;
+    
+    
+            }
+    
+            .contentLabel {}
+        }
+    
+        .closeTabIcon {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            border: none;
+            transform: scale(2);
+          
+            z-index: 1000;
+           color:blue;
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+    
+        }
+       
+    
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+    
+        .contentLabel {
+    
+            font-size: large;
+            font-weight: 400;
+    
+    
+        }
+    
+        // span {
+        //     color: rgba(0, 0, 0, 0.6);
+        // }
+    
+    
+    }
+    
+    .ReactModal__Overlay {
+        background-color: red;
+    }
+    
+    .activeConfig {
+        background-color: #eee !important;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 600px){
+    .containerProductInformain {
+        width: 100%;
+        min-height: 500px;
+        .newsProduct
+         { margin-top: 20px;
+            display: none !important;
+             width: 100%;
+            line-height: 20px;
+            /* text-align: center; */
+            font-size: 21px;
+            font-weight: 600;
+    
+            
+
+            margin: 0 auto;
+             }
+        .markdownPoroduct {
+            width: 100%;
+            min-height: 20px;
+            // background-color: red;
+            margin: 0px auto 50px;
+          
+            padding:5px 10px;
+    
+            h1 {
+                font-size: 20px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                width: 100%;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+    
+            h2 {
+                font-size: 20px;
+                color: black;
+            }
+    
+            h3 {
+                font-size: 19px;
+                color: black;
+    
+            }
+    
+            h4 {
+                font-size: 19px;
+                color: black;
+    
+            }
+    
+            h5 {
+                font-size: 19px;
+                color: black;
+    
+            }
+    
+            h6 {
+                font-size: 18px;
+                color: black;
+    
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: justify;
+            }
+    
+            img {
+                object-fit: contain;
+                width: 100%;
+           
+                background-size: cover;
+                display: block;
+                margin: 5px 0;
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+        }
+    }
+    
+    .containerProduct {
+        width: 100%;
+        min-height: 600px;
+    
+    
+        margin-bottom: 50px;
+    
+        margin-top: 100px;
+    
+    
+        @keyframes filling {
+            from {
+                background-position: center 25%;
+            }
+    
+            to {
+                background-position: center 50%;
+            }
+        }
+    
+
+        // background-color: pink;
+    
+        .wrapTitleLaptop {
+            // background-color: red;
+            width: 100%;
+    
+            hr {
+                width: 98%;
+                // background-color: black;
+                height: 0.5px;
+            }
+    
+            .titleLaptop {
+                padding-left: 10px;
+                font-size: 17px;
+                padding-bottom: 5px;
+            }
+        }
+    
+        .introduce_Product {
+            // padding-top: 10px;
+            text-align: center;
+            font-size: 16px;
+              font-weight: 700;
+            color:red;
+            padding: 0px 0 20px;
+    
+        }
+    
+        .container_itemProduct {
+           
+            width: 100%;
+            min-height: 200px;
+            //  background-color: blue;
+    
+            .image_Infor {
+       
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 400px;
+                width: 100%;
+                // background-color: orangered;
+                padding:5px;
+                // background-color:red;
+                margin: 0 auto 10px;
+
+                .image_Infor-item
+                {
+                    width: 100%;
+                    height:80%;
+                    // background-color: yellow;
+                    
+                }
+
+                .list-image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    height:30%;
+                    width: 100%;
+                    // background-color: white;
+                    // background-color: rgb(0, 255, 21);
+    
+                    .list-image-item {
+                        object-fit: contain;
+                        object-position: center;
+                         width: 25%;
+                        height: 100%;
+            
+                        cursor: pointer;
+                    }
+                }
+    
+    
+                .image_Infor-item {
+                    width: 100%;
+                    height: 70%;
+                    object-fit: contain;
+                    // padding: 10px;
+    
+                }
+    
+            }
+    
+            .container_InforDetail {
+               
+               
+               
+                width: 100%;
+                height:40%;
+          
+                padding:5px;
+                .itemInfor {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-top: 10px;
+                }
+    
+                .detailConfig {
+                    font-size: 16px;
+                    color: #0795df;
+                    /* padding: 10px; */
+                    font-weight: 600;
+                    padding: 14px 0;
+               
+                    
+    
+                    &:hover {
+                        cursor: pointer;
+    
+    
+                    }
+                }
+    
+                .chooseConfig {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-top: 10px
+                }
+    
+                .ContactBuyProduct {
+                    width: 100%;
+
+                    margin: 0 auto;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    // background-color: wheat;
+    
+    
+                    .buy {
+                        width: 49%;
+    
+                        .buy-btn {
+                            background-color: #db1515;
+                            width: 100%;
+                            margin-right: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            // border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+                    .installment {
+                        width: 49%;
+                        .installment-btn {
+                            background-color: #0795df;
+                            width: 100%;
+                         
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+    
+    
+                
+                .cpuInfor {
+                    &::before {
+                        content: 'CPU: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsCard {
+                    &::before {
+                        content: 'Card đồ họa : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .memory {
+                    &::before {
+                        content: 'Ổ Cứng : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsInfor {
+                    &::before {
+                        content: 'GRAPHICS: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ramInfor {
+                    &::before {
+                        content: 'RAM: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ssdInfor {
+                    &::before {
+                        content: 'SSD Hard Drives: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .operatingSystem {
+                    &::before {
+                        content: 'Hệ điều hành : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .sizeScreen {
+                    &::before {
+                        content: 'Màn hình : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .inforPrice {
+                    font-size: 22px;
+                    color: #db1515;
+                    font-weight: bold;
+                }
+    
+                .descriptionInfor {
+                    padding: 17px;
+                    color: hotpink;
+                    padding: 0 .3rem;
+                    margin: 0 .3rem 0 0;
+                    border: 1px solid;
+                    border-radius: 8px;
+                    font-family: "IBM Plex Mono";
+                    color: black;
+                    line-height: 1.5;
+                    justify-content: center;
+    
+                }
+    
+                .container_config {
+                    width: 100%;
+
+                    min-height: 200px;
+                    // background-color: red;
+    
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    justify-content: space-around;
+                    // background-color:red;
+                    margin: 20px auto;
+    
+                    .item_config {
+                        width: 48%;
+                            height: 100px;
+                            border: 1px solid #0795df;
+                            border-radius: 3px;
+                            background-color: transparent;
+                            font-size: 15px;
+                            transition: all 0.2s linear;
+                            line-height: 1.5;
+                            font-size: 15px;
+                            /* margin-left: 10px; */
+                            margin-top: 10px;
+    
+                        .priceItemProduct {
+                            color: red;
+                        }
+    
+                        .InforItemProduct {
+                            &:hover {
+                                color: black;
+                            }
+                        }
+    
+                        &:hover {
+    
+    
+                            cursor: pointer;
+    
+                        }
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    
+        //modal
+    }
+    
+    
+    .containerModal {
+        background-color: #eee;
+        width: 90%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        position: relative;
+        margin:0 auto;
+        // padding-left: 10px;
+        // box-Shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border:1px solid rgba(0, 0, 0, 0.146);
+    border-radius: 10px;
+    padding-left: 5px;
+        .containerContent {
+            margin-top: 20px;
+    
+            .contentLabel {
+                padding: 10px 0;
+                line-height: 30px;
+            }
+    
+            hr {
+                background-color: black;
+    
+                // margin-top: 26px;
+            }
+    
+            .line {
+                height: 0.1px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.502);
+                margin-top: 26px;
+            }
+    
+    
+    
+            .Content-Title {
+                font-size: 17px;
+                font-weight: 620;
+                margin-top: 10px;
+    
+    
+            }
+    
+            .contentLabel {}
+        }
+    
+        .closeTabIcon {
+            position: absolute;
+            top: 18px;
+            right: 18px;
+            border: none;
+            transform: scale(2);
+          
+            z-index: 1000;
+           color:blue;
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+    
+        }
+       
+    
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+    
+        .contentLabel {
+    
+            font-size: large;
+            font-weight: 400;
+    
+    
+        }
+    
+        // span {
+        //     color: rgba(0, 0, 0, 0.6);
+        // }
+    
+    
+    }
+    
+    .ReactModal__Overlay {
+        background-color: red;
+    }
+    
+    .activeConfig {
+        background-color: #eee !important;
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 480px){
+    .containerProductInformain {
+        width: 100%;
+        min-height: 500px;
+        .newsProduct
+         { margin-top: 20px;
+            display: none !important;
+             width: 100%;
+            line-height: 20px;
+            /* text-align: center; */
+            font-size: 21px;
+            font-weight: 600;
+    
+            
+
+            margin: 0 auto;
+             }
+        .markdownPoroduct {
+            width: 100%;
+            min-height: 20px;
+            // background-color: red;
+            margin: 0px auto 50px;
+          
+            padding:5px 10px;
+    
+            h1 {
+                font-size: 20px;
+                font-weight: bold;
+                color: black;
+                text-align: center;
+                width: 100%;
+                margin: 0 auto;
+                margin-bottom: 15px;
+            }
+    
+            h2 {
+                font-size: 20px;
+                color: black;
+            }
+    
+            h3 {
+                font-size: 19px;
+                color: black;
+    
+            }
+    
+            h4 {
+                font-size: 19px;
+                color: black;
+    
+            }
+    
+            h5 {
+                font-size: 19px;
+                color: black;
+    
+            }
+    
+            h6 {
+                font-size: 18px;
+                color: black;
+    
+            }
+    
+            p {
+                font-size: 20px;
+                text-align: justify;
+            }
+    
+            img {
+                object-fit: contain;
+                width: 100%;
+           
+                background-size: cover;
+                display: block;
+                margin: 5px 0;
+                margin: 0 auto;
+                margin-top: 15px;
+            }
+        }
+    }
+    
+    .containerProduct {
+        width: 100%;
+        min-height: 600px;
+    
+    
+        margin-bottom: 50px;
+    
+        margin-top: 100px;
+    
+    
+        @keyframes filling {
+            from {
+                background-position: center 25%;
+            }
+    
+            to {
+                background-position: center 50%;
+            }
+        }
+    
+
+        // background-color: pink;
+    
+        .wrapTitleLaptop {
+            // background-color: red;
+            width: 100%;
+    
+            hr {
+                width: 98%;
+                // background-color: black;
+                height: 0.5px;
+            }
+    
+            .titleLaptop {
+                padding-left: 10px;
+                font-size: 17px;
+                padding-bottom: 5px;
+            }
+        }
+    
+        .introduce_Product {
+            // padding-top: 10px;
+            text-align: center;
+            font-size: 16px;
+              font-weight: 700;
+            color:red;
+            padding: 0px 0 20px;
+    
+        }
+    
+        .container_itemProduct {
+           
+            width: 100%;
+            min-height: 200px;
+            //  background-color: blue;
+    
+            .image_Infor {
+       
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 400px;
+                width: 100%;
+                // background-color: orangered;
+                padding:5px;
+                // background-color:red;
+                margin: 0 auto 10px;
+
+                .image_Infor-item
+                {
+                    width: 100%;
+                    height:80%;
+                    // background-color: yellow;
+                    
+                }
+
+                .list-image {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    height:30%;
+                    width: 100%;
+                    // background-color: white;
+                    // background-color: rgb(0, 255, 21);
+    
+                    .list-image-item {
+                        object-fit: contain;
+                        object-position: center;
+                         width: 25%;
+                        height: 100%;
+            
+                        cursor: pointer;
+                    }
+                }
+    
+    
+                .image_Infor-item {
+                    width: 100%;
+                    height: 70%;
+                    object-fit: contain;
+                    // padding: 10px;
+    
+                }
+    
+            }
+    
+            .container_InforDetail {
+               
+               
+               
+                width: 100%;
+                height:40%;
+          
+                padding:5px;
+                .itemInfor {
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-top: 10px;
+                }
+    
+                .detailConfig {
+                    font-size: 16px;
+                    color: #0795df;
+                    /* padding: 10px; */
+                    font-weight: 600;
+                    padding: 14px 0;
+               
+                    
+    
+                    &:hover {
+                        cursor: pointer;
+    
+    
+                    }
+                }
+    
+                .chooseConfig {
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-top: 10px
+                }
+    
+                .ContactBuyProduct {
+                    width: 100%;
+
+                    margin: 0 auto;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    // background-color: wheat;
+    
+    
+                    .buy {
+                        width: 49%;
+    
+                        .buy-btn {
+                            background-color: #db1515;
+                            width: 100%;
+                            margin-right: 5px;
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            // border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+                    .installment {
+                        width: 49%;
+                        .installment-btn {
+                            background-color: #0795df;
+                            width: 100%;
+                         
+                            height: 45px;
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: white;
+                            border-radius: 3px;
+                            border: none;
+    
+                            &:hover {
+                                cursor: pointer;
+    
+                            }
+                        }
+                    }
+    
+    
+                }
+    
+    
+    
+                
+                .cpuInfor {
+                    &::before {
+                        content: 'CPU: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsCard {
+                    &::before {
+                        content: 'Card đồ họa : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .memory {
+                    &::before {
+                        content: 'Ổ Cứng : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .graphicsInfor {
+                    &::before {
+                        content: 'GRAPHICS: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ramInfor {
+                    &::before {
+                        content: 'RAM: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .ssdInfor {
+                    &::before {
+                        content: 'SSD Hard Drives: ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .operatingSystem {
+                    &::before {
+                        content: 'Hệ điều hành : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .sizeScreen {
+                    &::before {
+                        content: 'Màn hình : ';
+                        font-weight: 600;
+                        color: black;
+                        font-size: 16px;
+                    }
+                }
+    
+                .inforPrice {
+                    font-size: 22px;
+                    color: #db1515;
+                    font-weight: bold;
+                }
+    
+                .descriptionInfor {
+                    padding: 17px;
+                    color: hotpink;
+                    padding: 0 .3rem;
+                    margin: 0 .3rem 0 0;
+                    border: 1px solid;
+                    border-radius: 8px;
+                    font-family: "IBM Plex Mono";
+                    color: black;
+                    line-height: 1.5;
+                    justify-content: center;
+    
+                }
+    
+                .container_config {
+                    width: 100%;
+
+                    min-height: 200px;
+                    // background-color: red;
+    
+                    margin-top: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    justify-content: space-around;
+                    // background-color:red;
+                    margin: 20px auto;
+    
+                    .item_config {
+                        width: 48%;
+                            height: 100px;
+                            border: 1px solid #0795df;
+                            border-radius: 3px;
+                            background-color: transparent;
+                            font-size: 15px;
+                            transition: all 0.2s linear;
+                            line-height: 1.5;
+                            font-size: 15px;
+                            /* margin-left: 10px; */
+                            margin-top: 10px;
+    
+                        .priceItemProduct {
+                            color: red;
+                        }
+    
+                        .InforItemProduct {
+                            &:hover {
+                                color: black;
+                            }
+                        }
+    
+                        &:hover {
+    
+    
+                            cursor: pointer;
+    
+                        }
+    
+    
+                    }
+                }
+    
+            }
+    
+        }
+    
+        //modal
+    }
+    
+    
+    .containerModal {
+        background-color: #eee;
+        width: 95%;
+        height: 100%;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: -moz-scrollbars-none;
+        -ms-overflow-style: none;
+        position: relative;
+        margin:0 auto;
+        padding-left: 5px;
+   border-radius: 12px;
+        // box-Shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border:1px solid rgba(0, 0, 0, 0.205);
+    
+        .containerContent {
+            margin-top: 20px;
+    
+            .contentLabel {
+                padding: 10px 0;
+                line-height: 30px;
+            }
+    
+            hr {
+                background-color: black;
+    
+                // margin-top: 26px;
+            }
+    
+            .line {
+                height: 0.1px;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.502);
+                margin-top: 26px;
+            }
+    
+    
+    
+            .Content-Title {
+                font-size: 14px;
+                font-weight: 620;
+                margin-top: 10px;
+    
+    
+            }
+    
+            .contentLabel {}
+        }
+    
+        .closeTabIcon {
+            position: absolute;
+            top: 18px;
+            right: 18px;
+            border: none;
+            transform: scale(2);
+          
+            z-index: 1000;
+           color:blue;
+    
+    
+    
+            &:hover{
+                cursor: pointer;
+            }
+    
+    
+        }
+       
+    
+        &::-webkit-scrollbar {
+            width: 0 !important;
+            display: none;
+        }
+    
+        .contentLabel {
+    
+            font-size: 16px;
+            font-weight: 400;
+    
+    
+        }
+    
+        // span {
+        //     color: rgba(0, 0, 0, 0.6);
+        // }
+    
+    
+    }
+    
+    .ReactModal__Overlay {
+        background-color: red;
+    }
+    
+    .activeConfig {
+        background-color: #eee !important;
+    }
+}

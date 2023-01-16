@@ -1,0 +1,667 @@
+
+@media only screen and (min-width : 1025px) and (max-width : 10000px)
+{
+    .containerEnsurranceMain {
+   
+        min-height: 200px;
+        width: 1100px;
+        margin: 0 auto
+    }
+    
+    .container_ensurrance {
+        width: 90%;
+        height: 100%;
+    
+        // background: red;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin: 150px auto;
+    
+    
+    
+        .title_ensurrance {
+            width: 100%;
+            background-color: #0795df;
+            text-align: center;
+            margin: 0;
+            padding: 8px 0;
+    
+    
+            .title_ensurranceItem {
+                color: white;
+                /* padding-left: 10px; */
+                font-size: 26px;
+            }
+        }
+    
+        .wrap_ensurrance {
+            width: 100%;
+            height: 100px;
+    
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+    
+            position: relative;
+            background-color: rgba(238, 238, 238, 0.543);
+            border: 1px solid #0992f4;
+    
+    
+    
+            .backgroundMrimary {
+                width: 100%;
+                height: 150px;
+                background-color: rgba(70, 241, 241, 0.473);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                transform: translateY(100%);
+            }
+    
+    
+            .container_ensurrance {
+                width: 100%;
+    
+    
+    
+                .search_ensurrance {
+                    width: 40%;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .input_ensurrance {
+                        width: 100%;
+                        height: 40px;
+                        /* margin-left: 200px; */
+                        border-radius: 40px;
+                        padding-left: 20px;
+                        margin-right:10px;
+                            border: none;
+                        border: 2px solid #eee;
+                    }
+    
+                    .btn_ensurrance {
+                        width: 200px;
+                     
+                        border-radius: 40px;
+                        background-color: #0992f4;
+                        color: white;
+                        font-size: 15px;
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                        border: none;
+                        &:hover {
+                            cursor: pointer;
+    
+                        }
+                    }
+                }
+    
+    
+            }
+    
+    
+    
+        }
+    
+        .checkEnsurrance {
+            width: 100%;
+    
+            background-color: transparent;
+            font-size: 15px;
+            // text-align: center;
+            color: red;
+            background-color: white;
+            border: 1px solid #0992f4;
+            border-top: none;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+    
+            justify-content: flex-start;
+    
+            .result_ensurrance {
+    
+                // background-color: yellow;
+    
+    
+    
+                h3 {
+                    text-align: center;
+                    padding: 20px 0;
+                    font-size: 20px;
+                }
+            }
+    
+    
+    
+            // justify-content: center;
+    
+    
+    
+            .result_ensurrance-item {
+                list-style: none;
+                // background-color: black;
+                // width: 40%;
+    
+                font-size: 18px;
+                color: black;
+                line-height: 30px;
+                
+    .inforcustomer
+    {
+        font-weight: 700;
+        margin-left: 10px;
+    }
+            }
+    
+        }
+    }
+}
+@media only screen and (min-width : 320px) and (max-width : 480px)
+{
+    .containerEnsurranceMain {
+        width: 100%;
+        min-height: 500px;
+        
+    }
+    
+    .container_ensurrance {
+        width: 100%;
+        min-height: 100px;
+    
+        // background: red;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin: 100px auto;
+    
+    
+    
+        .title_ensurrance {
+            width: 90%;
+            text-align: center;
+            background-color: #0795df;
+            margin: 0;
+            font-size: 12px;
+            // transform: translateX(-396px);
+            
+    padding: 5px 0;
+    
+    
+            .title_ensurranceItem {
+                color: white;
+                padding-left: 10px;
+                font-size: 15px;
+    font-weight: 600;
+            }
+        }
+    
+        .wrap_ensurrance {
+            width: 90%;
+            height: 100px;
+    
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+    
+            position: relative;
+            background-color: rgba(238, 238, 238, 0.543);
+            border: 1px solid #0992f4;
+    
+    
+    
+            .backgroundMrimary {
+                width: 100%;
+                height: 150px;
+                background-color: rgba(70, 241, 241, 0.473);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                transform: translateY(100%);
+            }
+    
+    
+            .container_ensurrance {
+                width: 100%;
+    
+    
+    
+                .search_ensurrance {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 0 10px;
+    
+                    .input_ensurrance {
+                        width: 100%;
+                        height: 36px;
+                        border-radius: 40px;
+                        padding-left: 20px;
+                        margin-right: 10px;
+                        /* background-color: red; */
+                        border: none;
+                        border: 2px solid #eee;
+                    }
+    
+                    .btn_ensurrance {
+                        width: 100px;
+                        // margin-right: 50px;
+                        border-radius: 40px;
+                        background-color: #0992f4;
+                        color: white;
+                        font-size: 15px;
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                        color: white;
+                        font-size: 12px;
+                        border: none;
+                        border: 1px solid #eee;
+                        &:hover {
+                            cursor: pointer;
+    
+                        }
+                    }
+                }
+    
+    
+            }
+    
+    
+    
+        }
+    
+        .checkEnsurrance {
+            width: 90%;
+    
+            background-color: transparent;
+            font-size: 10px;
+            // text-align: center;
+            color: red;
+            background-color: white;
+            border: 1px solid #0992f4;
+            border-top: none;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+    
+            justify-content: flex-start;
+    
+            .result_ensurrance {
+    
+                // background-color: yellow;
+    
+    
+    
+                h3 {
+                    text-align: center;
+    
+                }
+            }
+    
+    
+    
+            // justify-content: center;
+    
+    
+    
+            .result_ensurrance-item {
+                list-style: none;
+                // background-color: black;
+                // width: 40%;
+    
+                font-size: 12px;
+                color: black;
+                line-height: 30px;
+               
+
+    
+            }
+            .inforcustomer
+            {
+                font-weight: 700;
+                margin-left: 5px;
+            }
+    
+        }
+    }
+    
+    
+}
+@media only screen and (min-width : 481px) and (max-width : 600px)
+{
+    .containerEnsurranceMain {
+        width: 100%;
+        min-height: 500px;
+        
+    }
+    
+    .container_ensurrance {
+        width: 100%;
+        min-height: 100px;
+    
+        // background: red;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin: 100px auto;
+    
+    
+    
+        .title_ensurrance {
+            width: 90%;
+            text-align: center;
+            background-color: #0795df;
+            margin: 0;
+            font-size: 12px;
+            // transform: translateX(-396px);
+            padding: 5px 0;
+    
+            .title_ensurranceItem {
+                color: white;
+    
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    
+        .wrap_ensurrance {
+            width: 90%;
+            height: 100px;
+    
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+    
+            position: relative;
+            background-color: rgba(238, 238, 238, 0.543);
+            border: 1px solid #0992f4;
+    
+    
+    
+            .backgroundMrimary {
+                width: 100%;
+                height: 150px;
+                background-color: rgba(70, 241, 241, 0.473);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                transform: translateY(100%);
+            }
+    
+    
+            .container_ensurrance {
+                width: 100%;
+    
+    
+    
+                .search_ensurrance {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .input_ensurrance {
+                        width: 70%;
+                        height: 36px;
+                        // margin-left: 30px;
+                        border-radius: 40px;
+                        padding-left: 20px;
+                        // background-color: red;
+                        margin-right:10px;
+                        border: none;
+    border: 2px solid #eee;
+                    }
+    
+                    .btn_ensurrance {
+                        width: 100px;
+                        margin-right: 50px;
+                        border-radius: 40px;
+                        background-color: #0992f4;
+                        color: white;
+                        font-size: 12px;
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                        border: none;
+                        &:hover {
+                            cursor: pointer;
+    
+                        }
+                    }
+                }
+    
+    
+            }
+    
+    
+    
+        }
+    
+        .checkEnsurrance {
+            width: 90%;
+    
+            background-color: transparent;
+            font-size: 10px;
+            // text-align: center;
+            color: red;
+            background-color: white;
+            border: 1px solid #0992f4;
+            border-top: none;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+    
+            justify-content: flex-start;
+    
+            .result_ensurrance {
+    
+                // background-color: yellow;
+    
+    
+    
+                h3 {
+                    text-align: center;
+    
+                }
+            }
+    
+    
+    
+            // justify-content: center;
+    
+    
+    
+            .result_ensurrance-item {
+                list-style: none;
+                // background-color: black;
+                // width: 40%;
+    
+                font-size: 12px;
+                color: black;
+                line-height: 30px;
+                
+                .inforcustomer
+                {
+                    font-weight: 700;
+                    margin-left: 10px;
+                }
+            }
+    
+        }
+    }
+    
+    
+}
+
+@media only screen and (min-width : 601px) and (max-width : 1024px)
+{
+    .containerEnsurranceMain {
+        width: 100%;
+        min-height: 500px;
+        
+    }
+    
+    .container_ensurrance {
+        width: 100%;
+        min-height: 100px;
+    
+        // background: red;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin: 100px auto;
+    
+    
+    
+        .title_ensurrance {
+            width: 90%;
+            text-align: center;
+            background-color: #0795df;
+            margin: 0;
+            font-size: 12px;
+            // transform: translateX(-396px);
+            padding: 10px 0;
+    
+    
+            .title_ensurranceItem {
+                color: white;
+                padding-left: 10px;
+                font-size: 24px;
+                /* padding: 5px 0; */
+                font-weight: 600;
+                
+            }
+        }
+    
+        .wrap_ensurrance {
+            width: 90%;
+            height: 100px;
+    
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+    
+            position: relative;
+            background-color: rgba(238, 238, 238, 0.543);
+            border: 1px solid #0992f4;
+    
+    
+    
+            .backgroundMrimary {
+                width: 100%;
+                height: 150px;
+                background-color: rgba(70, 241, 241, 0.473);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                transform: translateY(100%);
+            }
+    
+    
+            .container_ensurrance {
+                width: 100%;
+    
+    
+    
+                .search_ensurrance {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+    
+                    .input_ensurrance {
+                        width: 70%;
+                        height: 36px;
+                        // margin-left: 30px;
+                        border-radius: 40px;
+                        padding-left: 20px;
+                        // background-color: red;
+                        margin-right:10px;
+                        border: none;
+                        border: 2px solid #eee;
+                    }
+    
+                    .btn_ensurrance {
+                        width: 100px;
+                        margin-right: 50px;
+                        border-radius: 40px;
+                        background-color: #0992f4;
+                        color: white;
+                        font-size: 15px;
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                        border: none;
+                        &:hover {
+                            cursor: pointer;
+    
+                        }
+                    }
+                }
+    
+    
+            }
+    
+    
+    
+        }
+    
+        .checkEnsurrance {
+            width: 90%;
+    
+            background-color: transparent;
+            font-size: 10px;
+            // text-align: center;
+            color: red;
+            background-color: white;
+            border: 1px solid #0992f4;
+            border-top: none;
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+    
+            justify-content: flex-start;
+    
+            .result_ensurrance {
+    
+                // background-color: yellow;
+    
+    
+    
+                h3 {
+                    text-align: center;
+    
+                }
+            }
+    
+    
+    
+            // justify-content: center;
+    
+    
+    
+            .result_ensurrance-item {
+                list-style: none;
+                // background-color: black;
+                // width: 40%;
+    
+                font-size: 12px;
+                color: black;
+                line-height: 30px;
+                .inforcustomer
+    {
+        font-weight: 700;
+        margin-left: 10px;
+    }
+    
+            }
+    
+        }
+    }
+}
