@@ -21,7 +21,7 @@ function CardItem(props) {
    
         const priceToDiscount=String(props.priceToDiscount);
 
-    console.log("priceToDiscount,",priceToDiscount)
+   console.log("props",props.ramType)
     return (
         <div className="card-wrapper" onClick={handleChangePage}>
             <div className='card-img-container'>
@@ -35,7 +35,7 @@ function CardItem(props) {
           
             <div className="containerDetailConfig">
                 <div className="itemDetailConfig"><span className='typeDetail'>CPU</span> <span className='mainType'>{props.CPUType ? `${props.CPUType}` : 'Đang cập nhật'}</span> </div>
-                <div className="itemDetailConfig"> <span className='typeDetail'>RAM</span><span className='mainType'>{props.ramMemory ? `${props.ramMemory}` : 'Đang cập nhật'}</span> </div>
+                <div className="itemDetailConfig"> <span className='typeDetail'>RAM</span><span className='mainType'>{props.ramMemory ? `${props.ramMemory} ${props.ramType} ${props.busRam}`: 'Đang cập nhật'}</span> </div>
                 <div className="itemDetailConfig"> <span className='typeDetail'>SSD</span><span className='mainType'>{props.memory ? `${props.memory} ` : 'Đang cập nhật'}</span></div>
                 <div className="itemDetailConfig">  <span className='typeDetail'>VGA</span><span className='mainType'>{props.graphicsCard ? `${props.graphicsCard} ` : 'Đang cập nhật'}</span></div>
             </div>

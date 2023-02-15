@@ -60,7 +60,8 @@ function HotDeal(props) {
                                             ramMemory={!_.isEmpty(item.configData) ? item.ramMemory : null}
                                             sizeScreen={!_.isEmpty(item.configData) ? item.sizeScreen : null}
                                             discount={!_.isEmpty(item.configData) ? item.discount : null}
-                                            // amountConfig={!_.isEmpty(item.configData) ? item.configData.length : null}
+                                            ramType={!_.isEmpty(item.configData) ? item.ramType : null}
+                                            busRam={!_.isEmpty(item.configData) ? item.busRam : null}
                                             priceToDiscount={item.discount ? item.price - (item.price*item.discount/100) : null}
                                         />
                                     }

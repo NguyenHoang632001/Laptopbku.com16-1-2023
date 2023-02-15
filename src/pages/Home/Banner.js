@@ -66,6 +66,7 @@ const Banner = (props) => {
 
                             const price = !_.isEmpty(item.configData) ? (item.configData[0].price) : null;
                             return (
+                                
                                
                                 <CardItem
                                     key={item.id}
@@ -82,7 +83,8 @@ const Banner = (props) => {
                                     amountConfig={!_.isEmpty(item.configData) ? item.configData.length : null}
                                
                                     priceToDiscount={!_.isEmpty(item.configData) ? item.configData[0].price - (item.configData[0].price*item.configData[0].discount/100) : null}
-
+                                    ramType={!_.isEmpty(item.configData) ? item.configData[0].ramType : null}
+                                    busRam={!_.isEmpty(item.configData) ? item.configData[0].busRam : null}
                                 />
                             )
                         })

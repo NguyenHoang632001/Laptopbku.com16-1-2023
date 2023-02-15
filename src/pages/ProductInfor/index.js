@@ -328,7 +328,7 @@ console.log(currentProduct)
 
       </Modal>
     </div>
-   <div className="newsProduct">THAM KHẢO THÔNG TIN CHI TIẾT VỀ MÁY VÀ CẤU HÌNH BÊN DƯỚI >></div>
+   <div className="newsProduct"></div>
     <div className="markdownPoroduct" dangerouslySetInnerHTML={{ __html: currentProduct.descriptionHTML }}>
 
     </div>

@@ -68,6 +68,8 @@ function Search() {
                   sizeScreen={!_.isEmpty(item.configData) ? item.configData[0].sizeScreen : null}
                                   // discount={!_.isEmpty(item.configData) ? item.configData[0].discount : null}
                   graphicsCard={!_.isEmpty(item.configData) ? item.configData[0].graphicsCard : null}
+                  ramType={!_.isEmpty(item.configData) ? item.configData[0].ramType : null}
+                  busRam={!_.isEmpty(item.configData) ? item.configData[0].busRam : null}
 
                 />
               )
